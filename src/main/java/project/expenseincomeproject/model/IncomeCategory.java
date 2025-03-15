@@ -14,7 +14,7 @@ import lombok.Data;
 @Entity
 @Table(name = "incomecategories")
 @Data
-public class IncomeCategory { ///maas,shexsi biznes , teqaud elaci, prazi
+public class IncomeCategory { ///maas,shexsi biznes , teqaud elaci, prezident
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
