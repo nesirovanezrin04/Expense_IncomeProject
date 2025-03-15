@@ -3,11 +3,11 @@ bu zaman dockerde containerler yaranir bir ad altinda gorunur
 
 ----docker huba push etmek ucun----
 
-docker tag expense-income-app:latest shahrigul/expense-income-app:app
-docker push shahrigul/expense-income-app:app
+docker tag expense-income-app:latest nesirovanezrin/expense-income-app:app
+docker push nesirovanezrin/expense-income-app:app
 
-docker tag oscarfonts/h2:latest shahrigul/expense-income-app:h2
-docker push shahrigul/expense-income-app:h2
+docker tag nesirovanezrin/h2:latest nesirovanezrin/expense-income-app:h2
+docker push nesirovanezrin/expense-income-app:h2
 
 Qeyd: bu emrler ardicilliqla olmalidir
 
